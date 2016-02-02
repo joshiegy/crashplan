@@ -17,3 +17,6 @@ Volumes:
 /media = Files to backup, more can be provided if neccessary.
 
 Portforward 4242 from outside to host-ip:4242 if client-to-client back is used. Not needed for use with crashplan cloud.
+
+
+The "linker.sh" is copied from an outside source with no lisence attached - if you are the original author - please contact me and I'll update this to tribute your work.
