@@ -1,1 +1,0 @@
-docker run -p 4242:4242/tcp -p 4243:4243/tcp -v /media:/media --name crashplan -tid crashplan
