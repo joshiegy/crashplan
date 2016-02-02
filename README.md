@@ -20,3 +20,6 @@ Portforward 4242 from outside to host-ip:4242 if client-to-client back is used. 
 
 
 The "linker.sh" is copied from an outside source with no lisence attached - if you are the original author - please contact me and I'll update this to tribute your work.
+
+
+A big thank you to Code42 for excellent software!
