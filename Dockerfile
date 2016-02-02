@@ -1,4 +1,5 @@
 FROM centos
+MAINTAINER Joshi Friberg
 
 COPY ./CrashPlan_4.5.0_Linux.tgz /CrashPlan_4.5.0_Linux.tgz
 
