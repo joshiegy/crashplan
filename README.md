@@ -3,15 +3,15 @@ Crashplan RockOn for Rockstor
 
 
 First run:
-docker run -v <your configdir>:/config/ -v <folder to backup>:/media/ -p 4242:4242/tcp -p 4243:4243/tcp --name crashplan -tid joshiegy/crashplan
-ex. 
-docker run -v /mnt/docker/crashplan/config/:/config/ -v /media/:/media/ -p 4242:4242/tcp -p 4243:4243/tcp --name crashplan -tid joshiegy/crashplan
+* Expl. docker run -v <your configdir>:/config/ -v <folder to backup>:/media/ -p 4242:4242/tcp -p 4243:4243/tcp --name crashplan -tid joshiegy/crashplan
 
-Access by pointing your local crashplaninstallation to host-ip instead of localhost.
+* Exam. docker run -v /mnt/docker/crashplan/config/:/config/ -v /media/:/media/ -p 4242:4242/tcp -p 4243:4243/tcp --name crashplan -tid joshiegy/crashplan
+
+<H1>Access by pointing your local crashplaninstallation to host-ip instead of localhost. </H1>
 See more here: https://www.liquidstate.net/how-to-manage-your-crashplan-server-remotely/
-Alt:
+* Alt:
 
-Install crashplan on your desktop
+<H1> Install crashplan on your desktop </H1>
 Install the docker-crashplan-rockstor-plugin
 run "docker log crashplan" to get an output with a line containing a line with portnumber,UID,IP. Copy that to your desktopinstall of crashplan under /var/lib/crashplan/.ui_info (Windows: C:\ProgramData\CrashPlan.ui_info)
 Volumes:
