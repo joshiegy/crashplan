@@ -1,7 +1,10 @@
-FROM centos
+FROM centos:7
 MAINTAINER Joshi Friberg
 
 COPY ./CrashPlan_4.5.0_Linux.tgz /CrashPlan_4.5.0_Linux.tgz
+
+RUN mkdir /config
+VOLUME ["/config", "/media"]
 
 RUN yum -y update
 RUN yum -y install \
