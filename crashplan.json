@@ -1,6 +1,6 @@
 {
     "CrashPlan": {
-        "description": "Joshis Crashplan container",
+        "description": "Crashplan backupservice",
         "more_info": "<h4>Crashplan backupservice by Code42 - containerized by Joshiegy for Rockstor</h4>",
         "version": "one point oh",
         "website": "http://www.code42.com/",

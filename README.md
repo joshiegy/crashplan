@@ -10,8 +10,9 @@ See more here: https://www.liquidstate.net/how-to-manage-your-crashplan-server-r
 * Alt:
 
 # Install crashplan on your desktop
-Install the docker-crashplan-rockstor-plugin
-run "docker log crashplan" to get an output with a line containing a line with portnumber,UID,IP. Copy that to your desktopinstall of crashplan under /var/lib/crashplan/.ui_info (Windows: C:\ProgramData\CrashPlan.ui_info)
+Run "docker logs crashplan" to get an output with a line containing a line with portnumber,UID,IP.
+If you use syslog-driver for log-driver, then open the file located in <your configdir>/ui/.ui_info instead.
+Copy that to your desktopinstall of crashplan under /var/lib/crashplan/.ui_info (Windows: C:\ProgramData\CrashPlan.ui_info)
 Volumes:
 /config = where all config-files and caches will be stored outside of the container
 /media = Files to backup, more can be provided if neccessary.
